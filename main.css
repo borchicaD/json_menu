@@ -1,0 +1,19 @@
+ul{
+  list-style: none;
+}
+.arrow{
+  cursor: pointer;
+  user-select: :none;
+}
+.arrow::before{
+  content: "\25b6";
+  color: gray;
+  display: inline-block;
+  margin-right: 5px;
+}
+.nested{
+  display: none;
+}
+.active{
+  display: block;
+}
