@@ -1,0 +1,134 @@
+[
+    {
+        "id": "1",
+        "parent_id": "0",
+        "name": "Frontend",
+        "children": [
+            [
+                {
+                    "id": "9",
+                    "parent_id": "1",
+                    "name": "HTML",
+                    "children": [
+                        [
+                            {
+                                "id": "4",
+                                "parent_id": "9",
+                                "name": "XML, JSON",
+                                "children": []
+                            },
+                            {
+                                "id": "5",
+                                "parent_id": "9",
+                                "name": "CSS",
+                                "children": [
+                                    [
+                                        {
+                                            "id": "7",
+                                            "parent_id": "5",
+                                            "name": "SASS",
+                                            "children": []
+                                        },
+                                        {
+                                            "id": "8",
+                                            "parent_id": "5",
+                                            "name": "Bootstrap3",
+                                            "children": []
+                                        },
+                                        {
+                                            "id": "18",
+                                            "parent_id": "5",
+                                            "name": "Bootstrap4",
+                                            "children": []
+                                        }
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "6",
+                                "parent_id": "9",
+                                "name": "",
+                                "children": []
+                            }
+                        ]
+                    ]
+                },
+                {
+                    "id": "10",
+                    "parent_id": "1",
+                    "name": "JavaScript",
+                    "children": [
+                        [
+                            {
+                                "id": "11",
+                                "parent_id": "10",
+                                "name": "jQuery",
+                                "children": [
+                                    [
+                                        {
+                                            "id": "12",
+                                            "parent_id": "11",
+                                            "name": "Ajax",
+                                            "children": []
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            ]
+        ]
+    },
+    {
+        "id": "2",
+        "parent_id": "0",
+        "name": "Backend",
+        "children": [
+            [
+                {
+                    "id": "14",
+                    "parent_id": "2",
+                    "name": "C#",
+                    "children": []
+                }
+            ]
+        ]
+    },
+    {
+        "id": "3",
+        "parent_id": "0",
+        "name": "ASP.NET",
+        "children": [
+            [
+                {
+                    "id": "13",
+                    "parent_id": "3",
+                    "name": "MVC",
+                    "children": [
+                        [
+                            {
+                                "id": "15",
+                                "parent_id": "13",
+                                "name": "SQL database",
+                                "children": []
+                            },
+                            {
+                                "id": "19",
+                                "parent_id": "13",
+                                "name": "Entity framework",
+                                "children": []
+                            },
+                            {
+                                "id": "17",
+                                "parent_id": "13",
+                                "name": "SlimFolio",
+                                "children": []
+                            }
+                        ]
+                    ]
+                }
+            ]
+        ]
+    }
+]
